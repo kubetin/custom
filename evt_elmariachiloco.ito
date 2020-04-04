@@ -1,0 +1,28 @@
+[event]
+name="Mariachi Loco"
+location="apartment"
+author="kubetin"
+contact="@kubetin"
+flavor="Al entrar al pasillo notas una figura en la oscuridad... Acaso es un mariachi?"
+options="2"
+
+image="example art\exampleart_doorway-mariachi.png"
+about="Estas congelado de miedo"
+
+optiona="Hola?"
+testa="perception"
+successa="La figura da unos pasos hacia ti. Puedes ver lo que parece una sonrisa?! El mariachi da la vuelta y se va, desapareciendo en la oscuridad"
+winprizea="reason"
+winnumbera="-2"
+failurea="La figura no se mueve asi que decides correr la verga."
+failprizea="reason"
+failnumbera="2"
+
+optionb="Corre!"
+testb="luck"
+successb="La figura te empieza a perseguir pero logras escapar. Sera mejor no pasar por ahi de nuevo."
+winprizeb="reason"
+winnumberb="2"
+failureb="La figura te empieza a preseguir, sientes un fuerte golpe en tu nuca y te caes. El mariachi se ha ido"
+failprizeb="stamina"
+failnumberb="3"
